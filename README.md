@@ -1,0 +1,2 @@
+# tradeScopeAI
+trading anylasier 
