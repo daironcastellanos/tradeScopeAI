@@ -96,12 +96,12 @@ tomorrow = moving_average(data2, 3)
 # Set the title and body of the message
 
 st.write('Predicted stock price increment for',
-         numberOfDays, 'day ahead is :', tomorrow)
+         numberOfDays, 'days ahead is :', tomorrow)
 
 
 st.error('DISCLAIMER: This app is for informational purposes only and should not be used for trading. We are not responsible for any liability arising from the use of this app for trading or any other purposes. You are solely responsible for your own trading decisions and any associated risks. By using this app, you acknowledge that you understand and accept these terms.')
 
-st.subheader("Quick Sort Algorithm  with Live data: ")
+st.subheader("Quick Sort Algorithm  with Live Data: ")
 
 
 # ------------------------------------------------------------
@@ -136,7 +136,7 @@ sorted_arr = quicksort(arr)
 last = sorted_arr[-1]
 # Print the sorted list
 st.write('The highest value of the', picked_stocks, 'stock has been : ', last)
-st.write('The minimun value of the', picked_stocks,
+st.write('The minimum value of the', picked_stocks,
          'stock has been : ', sorted_arr[0])
 
 st.subheader("Merge Sort Algorithm with live Stock price: ")
@@ -193,12 +193,12 @@ lastMerged = sorted_prices[-1]
 # Print the sorted list
 st.write('The highest value of the', picked_stocks,
          'stock has been : ', lastMerged)
-st.write('The minimun value of the', picked_stocks,
+st.write('The minimal value of the', picked_stocks,
          'stock has been : ', sorted_prices[0])
 
 
 # ------------------------------------------------------------
-# 100plusk values of stocks random generatted based on a specific stock
+# 100plus values of stocks random generated based on a specific stock
 # Print the array of hourly values
 stock_price = data.tail(1)['Close'].values[0]
 
@@ -213,7 +213,7 @@ st.header("Quick Sort Algorithm : ")
 
 avg = np.mean(_sortedQuick)
 
-st.markdown('<p style="font-size: 18px; color: white; font-weight: bold; text-align: left;">Stock random average genrator based on stock average price with 120k values using quick sort :</p>',
+st.markdown('<p style="font-size: 18px; color: white; font-weight: bold; text-align: left;">Stock random average generator based on stock average price with 120k values using quick sort :</p>',
             unsafe_allow_html=True)
 st.write(avg)
 
@@ -233,7 +233,7 @@ st.header("Merge Sort Algorithm : ")
 
 avg = np.mean(_sortedMerge)
 
-st.markdown('<p style="font-size: 18px; color: white; font-weight: bold; text-align: left;">Stock random average genrator based on stock average price with 120k values using merge sort :</p>',
+st.markdown('<p style="font-size: 18px; color: white; font-weight: bold; text-align: left;">Stock random average generator based on stock average price with 120k values using merge sort :</p>',
             unsafe_allow_html=True)
 st.write(avg)
 
