@@ -1,2 +1,2 @@
 # tradeScopeAI
-trading anylasier 
+trading analyzer 
